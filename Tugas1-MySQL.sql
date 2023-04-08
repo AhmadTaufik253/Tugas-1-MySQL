@@ -60,6 +60,8 @@ ALTER TABLE jenis_produk
 ALTER TABLE jenis_produk
     -> MODIFY ket varchar(50) AFTER nama;
 
+
+// TUGAS 1 MySQL
 // membuat table produk
 CREATE TABLE produk(
     -> id int NOT NULL auto_increment primary key,
